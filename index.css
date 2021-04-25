@@ -24,22 +24,23 @@
     
     .bin {
         display: flex;
+        /* width: 100%; */
         
     }
     
     .champ {
-        
+        /* width: 100%; */
     }
     
     #champ1 {
-        width: 300px;
+        width: 400px;
         height: 80px;
         border-color: black;
         text-align: center;
     }
     
     #champ2 {
-        width: 300px;
+        width: 400px;
         height: 80px;
         background-color: orangered;
         text-align: center;
@@ -56,7 +57,7 @@
     }
     
     #champ4 {
-        width: 300px;
+        width: 400px;
         height: 160px;
         background-image: url(./images/lunch.jpg);
         color: white;
@@ -64,7 +65,7 @@
     }
     
     #champ5 {
-        width: 300px;
+        width: 500px;
         height: 160px;
         background-image: url(./images/dinner.jpg);
         color: white;
@@ -164,4 +165,22 @@
         margin-top: 10%;
         background-image: url(./images/subscribe.jpg);
         color: white;
+        padding-left: 35%;
+        padding-top: -10%;
+        
+    }
+    #mic{
+        margin-top: 120px;
+    }
+
+    #w{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #n {
+        width: 80px;
+        border: 2px solid orangered;
+        text-align: center;
+        background-color: orangered;
     }
