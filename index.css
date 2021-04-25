@@ -24,16 +24,16 @@
     
     .bin {
         display: flex;
+        
     }
     
     .champ {
-        w
+        
     }
     
     #champ1 {
         width: 300px;
         height: 80px;
-        /* border: solid; */
         border-color: black;
         text-align: center;
     }
@@ -84,13 +84,28 @@
     }
      
     #pic101 {
-        height: 170px;
+        /* height: 100px; */
+        width: 300%;
+        margin-top: -10px;
     }
 
     #pic102 {
-        height: 170px;
+        margin-bottom: 400px;
     }
 
     .east101 {
-        border: solid black;
+        
+    }
+    section{
+        height: 300px;
+        display: flex;
+    }
+
+    .UNO{
+        width: 50%;
+    }
+
+    #lion {
+        display: flex;
+        box-shadow: 5px, 5px,  black;
     }
