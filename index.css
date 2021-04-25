@@ -25,7 +25,6 @@
     .bin {
         display: flex;
         /* width: 100%; */
-        
     }
     
     .champ {
@@ -71,65 +70,64 @@
         color: white;
         text-align: center;
     }
-
+    
     .EAST {
         display: flex;
         padding-left: 25%;
         margin-top: 70px;
     }
-
+    
     #one {
         padding-left: 100px;
         padding-right: 100px;
         line-height: 2 em;
     }
-     
+    
     #pic101 {
         /* height: 100px; */
         width: 300%;
         margin-top: -10px;
     }
-
+    
     #pic102 {
         margin-bottom: 400px;
     }
-
-    .east101 {
-        
-    }
-    section{
+    
+    .east101 {}
+    
+    section {
         height: 300px;
         display: flex;
         align-items: center;
     }
-
+    
     .king {
         margin-top: 20px;
         text-transform: uppercase;
         border: 1px solid orangered;
         width: 35%;
-        text-align: center; 
+        text-align: center;
     }
-
-    .king :hover{
+    
+    .king :hover {
         background-color: tomato;
         color: white;
     }
-
-    .UNO{
+    
+    .UNO {
         width: 70%
     }
-
+    
     #lion {
         display: flex;
-        box-shadow: 5px, 5px,  black;
+        box-shadow: 5px, 5px, black;
         padding-right: 450px;
     }
-
+    
     .west {
-        padding-left: 400px ;
+        padding-left: 400px;
     }
-
+    
     #leo {
         background-image: url(./images/foodsBg.jpg);
         width: 100%;
@@ -137,28 +135,27 @@
         margin-top: 70px;
         border: black solid;
     }
-
+    
     #sok {
         color: white;
         align-items: center;
         margin-left: 25%;
         margin-top: 50px;
     }
-
+    
     #gnabry {
         display: flex;
-    
     }
-
-    .amin{
-        width:55%;
+    
+    .amin {
+        width: 55%;
         margin-top: 15%;
         text-align: center;
         margin-left: 25%;
         height: 225px;
         box-shadow: 5px 5px 5px 5px grey;
     }
-
+    
     .smart {
         width: 100%;
         height: 220px;
@@ -167,20 +164,27 @@
         color: white;
         padding-left: 35%;
         padding-top: -10%;
-        
     }
-    #mic{
+    
+    #mic {
         margin-top: 120px;
     }
-
-    #w{
+    
+    #w {
         display: flex;
         flex-direction: row;
     }
-
+    
     #n {
         width: 80px;
         border: 2px solid orangered;
         text-align: center;
         background-color: orangered;
+    }
+    
+    .footer {
+        width: 100%;
+        height: 200PX;
+        background-color: orangered;
+        padding-left: 45%;
     }
