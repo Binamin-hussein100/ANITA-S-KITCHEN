@@ -1,9 +1,72 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-#SUB101{
-    background-image: url(./images/landing.jpg);
-    height: 500px;
-    background-size: cover;
-}
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .sub1 {
+        background-image: url(./images/landing.jpg);
+        height: 500px;
+        background-size: cover;
+    }
+    
+    #sub1 {
+        margin-left: 600px;
+        color: white;
+        font-family: sans-serif;
+        font-size: 30PX;
+    }
+    
+    #mky {
+        word-spacing: 20px;
+        width: 200px;
+        margin-top: 150px;
+    }
+    
+    .bin {
+        display: flex;
+    }
+    
+    .champ {
+        w
+    }
+    
+    #champ1 {
+        width: 300px;
+        height: 80px;
+        /* border: solid; */
+        border-color: black;
+        text-align: center;
+    }
+    
+    #champ2 {
+        width: 300px;
+        height: 80px;
+        background-color: orangered;
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    #champ3 {
+        width: 300px;
+        height: 160px;
+        background-image: url(./images/breakfast.jpg);
+        background-repeat: no-repeat;
+        color: white;
+        text-align: center;
+    }
+    
+    #champ4 {
+        width: 300px;
+        height: 160px;
+        background-image: url(./images/lunch.jpg);
+        color: white;
+        text-align: center;
+    }
+    
+    #champ5 {
+        width: 300px;
+        height: 160px;
+        background-image: url(./images/dinner.jpg);
+        color: white;
+        text-align: center;
+    }
