@@ -99,13 +99,52 @@
     section{
         height: 300px;
         display: flex;
+        align-items: center;
+    }
+
+    .king {
+        margin-top: 20px;
+        text-transform: uppercase;
+        border: 1px solid orangered;
+        width: 35%;
+        text-align: center; 
+    }
+
+    .king :hover{
+        background-color: tomato;
+        color: white;
     }
 
     .UNO{
-        width: 50%;
+        width: 70%
     }
 
     #lion {
         display: flex;
         box-shadow: 5px, 5px,  black;
+        padding-right: 450px;
+    }
+
+    .west {
+        padding-left: 400px ;
+    }
+
+    #leo {
+        background-image: url(./images/foodsBg.jpg);
+        width: 100%;
+        height: 350px;
+        margin-top: 70px;
+        border: black solid;
+    }
+
+    #sok {
+        color: white;
+        align-items: center;
+        margin-left: 25%;
+        margin-top: 80px;
+    }
+
+    #gnabry {
+        display: flex;
+    
     }
