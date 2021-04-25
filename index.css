@@ -70,3 +70,27 @@
         color: white;
         text-align: center;
     }
+
+    .EAST {
+        display: flex;
+        padding-left: 25%;
+        margin-top: 70px;
+    }
+
+    #one {
+        padding-left: 100px;
+        padding-right: 100px;
+        line-height: 2 em;
+    }
+     
+    #pic101 {
+        height: 170px;
+    }
+
+    #pic102 {
+        height: 170px;
+    }
+
+    .east101 {
+        border: solid black;
+    }
